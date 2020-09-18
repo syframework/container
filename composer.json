@@ -1,0 +1,27 @@
+{
+	"name": "sy/container",
+	"description": "Dependency injection container",
+	"type": "library",
+	"require": {
+		"php": ">=5.6.0",
+		"psr/container": "^1.0"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^9"
+	},
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Syone",
+			"email": "syone7@gmail.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Sy\\": "src/"
+		}
+	},
+	"provide": {
+        "psr/container-implementation": "1.0"
+    }
+}

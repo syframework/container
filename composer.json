@@ -22,6 +22,6 @@
 		}
 	},
 	"provide": {
-        "psr/container-implementation": "1.0"
-    }
+		"psr/container-implementation": "1.0"
+	}
 }

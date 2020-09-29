@@ -8,9 +8,9 @@ class ContainerTest extends TestCase {
 
 	protected $container;
 
-    protected function setUp(): void {
-        $this->container = new Container();
-    }
+	protected function setUp(): void {
+		$this->container = new Container();
+	}
 
 	public function testContainerCanCheckForDefinition() {
 		$this->assertFalse($this->container->has('definition'));

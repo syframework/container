@@ -102,7 +102,6 @@ class Container implements \Psr\Container\ContainerInterface {
 	}
 
 	private function __clone() {}
-	private function __wakeup() {}
 
 }
 
